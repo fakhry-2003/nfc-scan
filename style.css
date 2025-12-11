@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(140deg, #2620FF, #351A88, #29006F);
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu a {
+    color: #cfd3ff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btn-primary {
+    background: #2DFCD1;
+    color: #00323A;
+    padding: 10px 22px;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    width: 100%;
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 460px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    color: #d7dbff;
+    line-height: 1.6;
+}
+
+.hero-img img {
+    width: 420px;
+}
+
+/* SECTION BOX */
+.work, .feature {
+    padding: 80px;
+}
+
+.work h2, .feature h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.work-box, .feature-box {
+    background: rgba(255,255,255,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card {
+    text-align: center;
+    width: 100%;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #cfd3ff;
+    margin-top: 10px;
+    font-size: 14px;
+}
